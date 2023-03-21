@@ -1,0 +1,53 @@
+
+// Common
+// body {
+//   background-color: var(--primary-color);
+// }
+
+app-root {
+  display: block;
+  block-size: var(--h-100-vh);
+}
+
+.container {
+  display: block;
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+
+  background-color: var(--white);
+  padding: 20px 60px;
+  border-radius: 10px;
+
+  &__group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  &__control {
+    input {
+      display: block;
+      inline-size: 100%;
+    }
+  }
+
+  &__btn {
+    button {
+      display: block;
+      inline-size: 100%;
+    }
+  }
+}
+
+
+
+
+
